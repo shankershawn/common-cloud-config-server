@@ -1,0 +1,9 @@
+server:
+  port: 8002
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/shankershawn/common-cloud-config-repo
+          default-label: main
